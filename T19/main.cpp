@@ -24,6 +24,9 @@ struct ListNode
 class Solution
 {
   public:
+    /**
+    https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/
+    */
     ListNode *removeNthFromEnd(ListNode *head, int n)
     {
         ListNode *dummy = new ListNode(0);
